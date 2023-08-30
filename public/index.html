@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePlay</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navigation-bar">
+            <div id="logo">
+                <svg width="100%" height="100%" viewBox="0 0 200 200" fill="none" stroke-width="10">
+                    <path d="M185 100 A30 30 0 0 0 45 100" fill="blue" stroke="none"/>
+                    <path d="M155 100 A30 30 0 0 1 15 100" fill="yellow" stroke="none"/>
+                    <circle cx="140" cy="60" r="10" fill="rgb(20, 20, 20)" />
+                    <circle cx="60" cy="140" r="10" fill="rgb(20, 20, 20)" />
+                </svg>
+            </div>
+            <div id="menu">
+                <div id="home-button" class="menu-button">
+                    <div>Home</div>
+                    <div class="border-wrapper">
+                        <div id="home-border"></div>
+                    </div>
+                </div>
+                <div id="about-us-button" class="menu-button">
+                    <div>About Us</div>
+                    <div class="border-wrapper">
+                        <div id="about-us-border"></div>
+                    </div>
+                </div>
+                <div id="get-started-button">Get Started</div> 
+            </div>         
+        </div>
+        <div id="content-wrapper">
+            <div id="viewport-1"></div>
+            <div id="what-is-python">
+                <div class="text">
+                    <div class="text-title">What is Python?</div>
+                    <div class="text-content">
+                        Python is a high-level, versatile, and dynamically typed programming language. 
+                        It was created by Guido van Rossum and was first released in 1991. 
+                        Python emphasizes code readability and a clean syntax, 
+                        which makes it an excellent choice for beginners and experienced developers alike. 
+                        It is designed to be both easy to write and easy to understand.                
+                        <br><br>
+                        Python's versatility makes it suitable for a wide range of applications, 
+                        including web development, scientific computing, data analysis, machine learning, 
+                        artificial intelligence, automation, and scripting. Its ease of learning and 
+                        extensive resources available online make it a popular choice for both beginners 
+                        and professionals in the programming world.
+                    </div>
+                </div>
+                <div class="animation" id="viewport-2"></div>
+            </div>
+            <div id="python-features">
+                <div class="animation" id="viewport-3"></div>
+                <div class="text" id="python-features-text">   
+                    <div class="text-title">The Features of Python</div>
+                    <div class="text-content text-lists">
+                        <ul class="lists">        
+                            <li>
+                                Object-Oriented Programming (OOP): Python supports classes, objects, and inheritance, adhering to OOP principles.
+                            </li>
+                            <li>
+                                Interpreted Language: Python doesn't need explicit compilation, making development faster.
+                            </li>
+                            <li>
+                                Cross-Platform Compatibility: Python works on different platforms, ensuring flexibility.
+                            </li>
+                            <li>
+                                Third-Party Libraries: Python's vast ecosystem includes frameworks and libraries for specific tasks.
+                            </li>
+                            <li>
+                                Open Source: Python's source code is open for constant improvement by the community.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="what-is-python-for">
+                <div class="text">                
+                    <div class="text-title">The Uses of Python</div>
+                    <div class="text-content text-lists">
+                        <ul class="lists">        
+                            <li>
+                                Web Development: Python's frameworks like Django and Flask streamline web app development.
+                            <li>
+                                Data Analysis and Science: Libraries like NumPy, pandas, and Matplotlib simplify data analysis, 
+                                manipulation, visualization, and statistical modeling.                        
+                            </li>
+                            <li>
+                                Machine Learning and AI: Python powers complex machine learning using TensorFlow, Keras, 
+                                and PyTorch for training and deploying models.                        
+                            </li>
+                            <li>
+                                Bioinformatics Analysis: Python analyzes biological data in bioinformatics.                        
+                            </li>
+                            <li>
+                                Scientific Computing: Python handles simulations, numerical analysis, and complex math.                        
+                            </li>
+                            <li>
+                                IoT Development: Python creates software and apps for IoT devices.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="animation" id="viewport-4"></div>
+            </div>        
+            <div id="footer-bar">
+                <div>CodePlay</div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/websiteController.js"></script>
+    <script type="module" src="./js/scripts.js"></script>
+</body>
+</html>
